@@ -3,9 +3,7 @@ version: '2'
 
 services:
     weboperation:
-        build:
-            context: .
-            dockerfile: Dockerfile 
+        build: julitom1/parcial2-arep
         container_name: weboperation
         ports:
             - "5000:6000"
