@@ -18,6 +18,10 @@ Este servicio es el encargado de realizar una operación segun la uri que le pas
 
 **/acos:** nos devuelve en formato JSON la operación acos realizada
 
+![](img/Captura16.PNG)
+
+Controlando errores en "/acos"
+
 ![](img/Captura5.PNG)
 
 Diagrama de clases del servicio
