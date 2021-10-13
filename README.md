@@ -34,11 +34,10 @@ para clonar este repositorio es con el comando
 
 git clone https://github.com/julitom1/PARCIAL2-AREP
 
-y para ejecutar, bascta con el comando
+y para ejecutarlo basta con el comando
 
 docker-compose up -d
 
-ya que tiene todo configurado
 
 ## Docker
 
