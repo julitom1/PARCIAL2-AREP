@@ -28,6 +28,18 @@ Diagrama de clases del servicio
 
 ![](img/Captura15.PNG)
 
+## Git 
+
+para clonar este repositorio es con el comando 
+
+git clone https://github.com/julitom1/PARCIAL2-AREP
+
+y para ejecutar, bascta con el comando
+
+docker-compose up -d
+
+ya que tiene todo configurado
+
 ## Docker
 
 El servicio tiene un archivo DockerFile que se encarga de construir la imagen para poderla subir al DockerHub, Se le pasaron las clases y las dependencias que necesita al contenedor.
