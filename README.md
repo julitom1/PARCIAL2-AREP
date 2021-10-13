@@ -34,7 +34,7 @@ El servicio esta en el contenedor julitom1/parcial2-arep
 
 En AWS se creo una maquina virtual y se creo un archivo docker-compose.yml que descarga el contenedor de el repositorio de dockerHub, construye las respectivas imagenes y las pone a correr en el puerto indicado, en este caso en el 5000.
 
-![](img/captura6.PNG)
+![](img/Captura6.PNG)
 
 Para finalizar se habilito el puerto 5000 unicamente
 
