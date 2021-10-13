@@ -20,6 +20,10 @@ Este servicio es el encargado de realizar una operación segun la uri que le pas
 
 ![](img/Captura5.PNG)
 
+Diagrama de clases del servicio
+
+![](img/Captura15.PNG)
+
 ## Docker
 
 El servicio tiene un archivo DockerFile que se encarga de construir la imagen para poderla subir al DockerHub, Se le pasaron las clases y las dependencias que necesita al contenedor.
