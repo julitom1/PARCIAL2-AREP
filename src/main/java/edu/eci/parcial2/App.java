@@ -21,6 +21,7 @@ public class App {
 	public static void main(String [] args){
         port(getPort());
         get("/log",(req,res) -> getLog(req,res));
+        get("/acos",(req,res) -> getAcos(req,res));
     }
     
 
@@ -47,10 +48,18 @@ public class App {
      * @return el acos del valor dado
      */
 	public static JSONObject getAcos(Request req, Response res) {
-		
-    	return null;
+		res.type("application/json");
+		Double value = Double.valueOf(req.queryParams("value"));
+		JSONObject myObject = new JSONObject();
+		myObject.put("operation", "acos");
+        myObject.put("input", value);
+        try {
+        	myObject.put("output", service.getAcos(value));
+        }catch(Exception e) {
+        	myObject.put("output", "Operacion no valida");
+        }
+    	return myObject;
     }
-
 
 
 	/**
